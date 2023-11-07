@@ -10,7 +10,7 @@ public class ToyStore {
     public ToyStore() {
         toys = new ArrayList<Toy>();
         prizeToys = new ArrayList<Toy>();
-        prizeFilePath = "prize_toys.txt";
+        prizeFilePath = "toys.txt";
     }
 
     public void addToy(Toy toy) {
